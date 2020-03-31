@@ -1,0 +1,108 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%
+}
+  .textfront  {
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 24px;
+    font-size:13px;
+    font-family: arial,sans-serif;
+    padding: 16px;
+  }
+
+  .imagefront  {
+      width: 30px;
+      height: 30px;
+      padding: 12px;
+  }
+
+  .logo   {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+      }
+
+  .imagelogo
+
+  {
+    width: 272px;
+    height: 92px;
+  }
+
+  .barre   {
+    display: flex;
+    justify-content: center;
+    }
+  
+  .imagebarre   {
+    width: 40%;
+    height: 40%;
+     }
+
+    .recherche {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ 
+       }
+
+    .recherche2 {
+    margin: 10px;
+    background-color: #f8f8f8;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: black; 
+    height: 36px;
+    text-align: center;
+    padding: 0 16px;
+    }
+
+    .interdit
+   {
+    display: flex;
+    width: 45px;
+    height: 45px;
+ 
+   }
+   .geste   
+
+   {
+    color: #1a0dab;
+    margin-left: 5px;
+    padding-top: 8px;
+   }
+
+   .france
+   {
+    background-color: #f2f2f2;
+    margin-top: 110px;    
+    position: absolute;
+    width: 100%
+   }
+
+   .france2
+   {
+    margin-left: 15px;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 15px;
+    font-family: arial,sans-serif;
+   }
+   
+   footer
+   { display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f2f2f2;
+    height: 36px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    
+  }
